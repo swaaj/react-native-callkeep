@@ -270,7 +270,7 @@ public class VoiceConnectionService extends ConnectionService {
 
         outgoingCallConnection = createConnection(request);
         outgoingCallConnection.setDialing();
-        outgoingCallConnection.setAudioModeIsVoip(true);
+        //outgoingCallConnection.setAudioModeIsVoip(true);
         outgoingCallConnection.setCallerDisplayName(displayName, TelecomManager.PRESENTATION_ALLOWED);
 
         startForegroundService();
